@@ -34,6 +34,8 @@ public class MuseumsFragment extends Fragment {
 
         final ArrayList<LocationDetails> locations = new ArrayList<>();
 
+        // todo: The images don't match the place. If you don't want to show an image, you should
+        //  remove drawable.
         locations.add(new LocationDetails("Museum of Mineralogy", "Bulevardul Traian 8", "★★★★★", R.drawable.log_out));
         locations.add(new LocationDetails("Museum of Ethnography", "Str Dealul Florilor 1", "★★★★★", R.drawable.bonissimo));
         locations.add(new LocationDetails("Museum of History", "Str Monetăriei 1-3", "★★★★★", R.drawable.padrino));
