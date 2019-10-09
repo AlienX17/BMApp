@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <!--todo: lengths are defined in dp. Only text sizes should be defined in sp.-->
     <dimen name="list_item_width">140sp</dimen>
     <dimen name="list_item_height">140sp</dimen>
     <dimen name="category_image_width">100sp</dimen>

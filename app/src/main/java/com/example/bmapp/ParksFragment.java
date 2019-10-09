@@ -34,6 +34,8 @@ public class ParksFragment extends Fragment {
 
         final ArrayList<LocationDetails> locations = new ArrayList<>();
 
+        // todo: The images don't match the place. If you don't want to show an image, you should
+        //  remove drawable.
         locations.add(new LocationDetails("Park 'Queen Mary'", "Str Valea Roșie 6", "★★★★★", R.drawable.log_out));
         locations.add(new LocationDetails("Central Park", "Str Serelor", "★★★★★", R.drawable.bonissimo));
         locations.add(new LocationDetails("Mara Park", "Bulevardul Unirii", "★★★★☆", R.drawable.padrino));

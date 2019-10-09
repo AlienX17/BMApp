@@ -2,6 +2,7 @@ package com.example.bmapp;
 
 public class LocationDetails {
 
+    // todo: Make this fields final if they are not to change after the object is created.
     private String mLocationName;
     private String mLocationAddress;
     private String mLocationRating;
@@ -26,6 +27,7 @@ public class LocationDetails {
         return mLocationRating;
     }
 
+    // todo: the name of this getter should be getImageId
     int getmImageId(){
         return mImageId;
     }

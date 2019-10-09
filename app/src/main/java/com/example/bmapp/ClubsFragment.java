@@ -34,6 +34,8 @@ public class ClubsFragment extends Fragment {
 
         final ArrayList<LocationDetails> locations = new ArrayList<>();
 
+        // todo: The images don't match the place. If you don't want to show an image, you should
+        //  remove drawable.
         locations.add(new LocationDetails("Club Athos", "Bulevardul Independenței 2", "★★★☆☆", R.drawable.log_out));
         locations.add(new LocationDetails("La Moustache", "Piața Libertății 5", "★★★★★", R.drawable.bonissimo));
         locations.add(new LocationDetails("Mystique Pub", "Str. Școlii 1", "★★★★☆", R.drawable.padrino));
