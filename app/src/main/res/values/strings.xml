@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMApp</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="museums">Museums</string>
+    <string name="clubs">Clubs</string>
+    <string name="parks">Parks</string>
+    <string name="try_the_best_food_in_town">Try the best food in town</string>
+    <string name="relax_in_nature">Relax in nature</string>
+    <string name="have_fun_at_the_best_clubs">Have fun at the best clubs</string>
+    <string name="visit_the_most_beautiful_museums">Visit the most beautiful museums</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

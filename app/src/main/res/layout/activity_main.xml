@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/restaurants_category"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@color/items">
+
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/restaurants_category"
+                android:contentDescription="@string/restaurants" />
+
+            <TextView
+                style="@style/Text"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/restaurants" />
+
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/Description"
+            android:text="@string/try_the_best_food_in_town"
+            android:layout_toRightOf="@+id/restaurants_category"
+            android:layout_toEndOf="@+id/restaurants_category" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/museum_category"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@color/items"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="openMuseumsList">
+
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/museum_category"
+                android:contentDescription="@string/museums" />
+
+            <TextView
+                style="@style/Text"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/museums" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/Description"
+            android:text="@string/visit_the_most_beautiful_museums"
+            android:layout_toLeftOf="@+id/museum_category"
+            android:layout_toStartOf="@+id/museum_category" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/clubs_category"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@color/items"
+            android:onClick="openClubsList">
+
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/clubs_category"
+                android:contentDescription="@string/clubs" />
+
+            <TextView
+                style="@style/Text"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/clubs" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/Description"
+            android:text="@string/have_fun_at_the_best_clubs"
+            android:layout_toRightOf="@+id/clubs_category"
+            android:layout_toEndOf="@+id/clubs_category" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/parks_category"
+            android:layout_width="@dimen/list_item_width"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@color/items"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="openParksList">
+
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/parks_category"
+                android:contentDescription="@string/parks" />
+
+            <TextView
+                style="@style/Text"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/parks" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/Description"
+            android:text="@string/relax_in_nature"
+            android:layout_toStartOf="@+id/parks_category"
+            android:layout_toLeftOf="@+id/parks_category" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
