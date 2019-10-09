@@ -44,7 +44,7 @@ public class LocationAdapter extends ArrayAdapter<LocationDetails> {
 
 
         ImageView locationImageView = listItemView.findViewById(R.id.location_image);
-        locationImageView.setImageResource(currentLocationDetails.getmImageId());
+        locationImageView.setImageResource(currentLocationDetails.getImageId());
 
         return listItemView;
     }

@@ -1,34 +1,32 @@
 package com.example.bmapp;
 
-public class LocationDetails {
+class LocationDetails {
 
-    // todo: Make this fields final if they are not to change after the object is created.
-    private String mLocationName;
-    private String mLocationAddress;
-    private String mLocationRating;
-    private int mImageId;
+    final private String mLocationName;
+    final private String mLocationAddress;
+    final private String mLocationRating;
+    final private int mImageId;
 
-    LocationDetails(String locationName, String locationAddress, String locationRating, int imageId){
+    LocationDetails(String locationName, String locationAddress, String locationRating, int imageId) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationRating = locationRating;
         mImageId = imageId;
     }
 
-    String getLocationName(){
+    String getLocationName() {
         return mLocationName;
     }
 
-    String getLocationAddress(){
+    String getLocationAddress() {
         return mLocationAddress;
     }
 
-    String getLocationRating(){
+    String getLocationRating() {
         return mLocationRating;
     }
 
-    // todo: the name of this getter should be getImageId
-    int getmImageId(){
+    int getImageId() {
         return mImageId;
     }
 }
